@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">RandomKinó</string>
-    <string name="reg">Registration</string>
+    <string name="reg">REGISTRATION</string>
     <string name="auth">LOGIN</string>
     <string name="password">Your password</string>
     <string name="login">Your login</string>
     <string name="spekLogin">Enter your login</string>
     <string name="spekPass">Enter your password</string>
+    <string name="back">Back</string>
+    <string name="creLogin">Create a login</string>
+    <string name="crePassword">Create a password</string>
+    <string name="inputEmail">Input your Email</string>
+    <string name="repeatPassword">Repeat your password</string>
+    <string name="creLogintxt">Login</string>
+    <string name="crePasswordtxt">Password</string>
+    <string name="inputEmailtxt">Email</string>
 </resources>
