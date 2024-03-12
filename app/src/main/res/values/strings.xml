@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RandomKinó</string>
+    <string name="reg">Registration</string>
+    <string name="auth">LOGIN</string>
+    <string name="password">Your password</string>
+    <string name="login">Your login</string>
+    <string name="spekLogin">Enter your login</string>
+    <string name="spekPass">Enter your password</string>
+</resources>
