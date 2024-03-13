@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <style name="button_RK">
+        <item name="android:layout_width">258dp</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="android:backgroundTint">@color/light_purpleButton</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:translationZ">4dp</item>
+    </style>
+
+    <style name="Input_RK" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">290dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/rounded_input</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">25dp</item>
+    </style>
 </resources>

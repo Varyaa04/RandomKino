@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background='@color/bkViolet'
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <TextView
         android:id="@+id/introtxt"
@@ -12,6 +12,7 @@
         android:layout_height="84dp"
         android:layout_marginTop="92dp"
         android:background="@color/bkViolet"
+        android:fontFamily="@font/madimi"
         android:shadowColor="@color/black"
         android:shadowDx="5"
         android:shadowDy="10"
@@ -19,8 +20,7 @@
         android:text='@string/app_name'
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="@color/yellow"
-        android:textSize="65dp"
-        android:fontFamily="@font/madimi"
+        android:textSize="65sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,17 +55,10 @@
 
             <EditText
                 android:id="@+id/logintb"
-                style="@style/Widget.AppCompat.EditText"
-                android:layout_width="291dp"
-                android:layout_height="58dp"
-                android:background="@drawable/rounded_input"
+                style="@style/Input_RK"
+                android:autofillHints=""
                 android:hint="@string/spekLogin"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:layout_marginTop="5dp"
-                android:paddingLeft="25dp"
-                android:paddingTop="2dp"
-                android:textColor="@color/white" />
+                android:inputType="textPersonName"/>
 
             <TextView
                 android:id="@+id/passwordtxt"
@@ -78,17 +71,10 @@
 
             <EditText
                 android:id="@+id/passwordtb"
-                style="@style/Widget.AppCompat.EditText"
-                android:layout_width="291dp"
-                android:layout_height="58dp"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/rounded_input"
-                android:ems="10"
+                style="@style/Input_RK"
                 android:inputType="textPassword"
-                android:paddingLeft="25dp"
-                android:paddingTop="2dp"
-                android:textColor="@color/white"
-                android:hint="@string/spekPass" />
+                android:hint="@string/spekPass"
+                android:importantForAutofill="" />
         </LinearLayout>
 
         <LinearLayout
@@ -100,15 +86,10 @@
 
             <Button
                 android:id="@+id/btnAuth"
-                android:layout_width="258dp"
-                android:layout_height="61dp"
+                style="@style/button_RK"
                 android:layout_marginStart="30dp"
-                android:backgroundTint="@color/light_purpleButton"
-                android:elevation="6dp"
-                android:stateListAnimator="@null"
-                android:text="@string/auth"
-                android:textColor="@color/yellow"
-                android:translationZ="4dp" />
+                android:onClick="EntryAccount"
+                android:text="@string/auth" />
 
             <Button
                 android:id="@+id/btnRegistr"
